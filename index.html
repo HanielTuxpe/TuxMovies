@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="menuStyle.css">
+    <title>TuxMovies</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/708/708914.png">
+</head>
+<body>
+    <header class="header">
+        <a class="btn" onclick="openNav()" class="Menu"><button>Géneros</button></a>
+        <a class="btn" class="Menu" href="index.html"><button>Inicio</button></a>
+        <div class="overlay" id="Movil-menu">
+            <a href="#" onclick="closeNav()" class="close">X</a>
+            <br><br>
+            <div class="overlay-content">
+                <ul id="genres">CATEGORÍAS</ul>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <center><h1>ENCUENTRA LAS MEJORES PELICULAS EN TUX MOVIES</h1></center>
+    <div id="title"></div>
+    <div id="contenedor">
+        <div id="contenedorP"></div>
+    </div><br><br>
+    <footer id="footer">
+        &copy; 2023 Tu Sitio de Películas. Todos los derechos reservados.
+    </footer>
+    <script type="module" src="index.js"></script>
+    <script src="ControlMenu.js"></script>
+</body>
+</html>

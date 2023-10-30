@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#contenedorP {
+    margin-left: 5em;
+    margin-right: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pelicula {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.pelicula:hover {
+    transform: scale(1.05);
+}
+
+.pelicula img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pelicula p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/*dcscds*/
+
+/* Estilos generales del encabezado */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#title{
+    margin-left: 3em;
+}

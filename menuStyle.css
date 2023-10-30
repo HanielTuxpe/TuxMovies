@@ -1,0 +1,85 @@
+.header {
+    background-color: #1d3019;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 5%;
+}
+
+
+.header a {
+    text-decoration: none;
+}
+
+.header .btn button {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3019;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+    background: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 400px) {
+    .nav_links, .btn {
+        display: none;
+    }
+
+    .Menu {
+        display: block;
+    }
+}
+
+.header .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(33, 49, 63, 0.95);
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.header .overlay .overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-height: 38em;
+    overflow-y: auto;
+}
+
+
+.header .overlay a {
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+    color: #e2f1f8;
+}
+
+.header .overlay a:hover,
+.header .overlay a:focus {
+    color: #fff56d;
+}
+
+.header .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
