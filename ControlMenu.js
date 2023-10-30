@@ -1,6 +1,6 @@
 function openNav()
 {
-    document.getElementById("Movil-menu").style.width = "25%"
+    document.getElementById("Movil-menu").style.width = "30%"
 }
 
 function closeNav()
